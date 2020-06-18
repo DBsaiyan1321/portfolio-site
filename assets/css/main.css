@@ -2783,7 +2783,7 @@ input, select, textarea {
 				padding-left: 0;
 			}
 
-		ul.actions.stacked {
+		ul.actions.stacked { /* To make them not stack, comment out lines 2787 - 2790. And comment in 2796 - 2797
 			-moz-flex-direction: column;
 			-webkit-flex-direction: column;
 			-ms-flex-direction: column;
@@ -2793,6 +2793,8 @@ input, select, textarea {
 
 			ul.actions.stacked li {
 				padding: 1.3rem 0 0 0;
+				/* padding: 0 0 0 0; */
+				/* margin: 0 3rem 0 0; */
 			}
 
 				ul.actions.stacked li:first-child {
